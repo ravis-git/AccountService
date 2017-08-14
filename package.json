@@ -1,0 +1,31 @@
+{
+  "name": "AccountService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-winston-adapter": "^0.2.0",
+    "consul": "^0.29.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.6",
+    "mongoose-api-query": "^0.1.1-pre",
+    "mongoose-createdmodified": "0.0.2",
+    "portfinder": "^1.0.13",
+    "restify": "^5.1.0",
+    "restify-errors": "^5.0.0",
+    "restify-plugins": "^1.6.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

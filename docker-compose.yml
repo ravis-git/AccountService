@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  account-service:
+    build: ./
+    network_mode: bridge
+    external_links:
+      - storeinfrastructure_consul_1
+    ports:
+      - 3000:3000
