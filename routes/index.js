@@ -3,8 +3,8 @@
 /**
  * Import dependencies
  */
-const _ = require('lodash'),
-    errors = require('restify-errors')
+// const _ = require('lodash'),
+//  errors = require('restify-errors')
 
 /**
  * Simple GET endpoint
